@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/processo-seletivo-anima2/static/css/main.b7f70691.chunk.css",
+    "main.js": "/processo-seletivo-anima2/static/js/main.eb01c1bb.chunk.js",
+    "main.js.map": "/processo-seletivo-anima2/static/js/main.eb01c1bb.chunk.js.map",
+    "runtime-main.js": "/processo-seletivo-anima2/static/js/runtime-main.ebc526fc.js",
+    "runtime-main.js.map": "/processo-seletivo-anima2/static/js/runtime-main.ebc526fc.js.map",
+    "static/css/2.de424728.chunk.css": "/processo-seletivo-anima2/static/css/2.de424728.chunk.css",
+    "static/js/2.5811842a.chunk.js": "/processo-seletivo-anima2/static/js/2.5811842a.chunk.js",
+    "static/js/2.5811842a.chunk.js.map": "/processo-seletivo-anima2/static/js/2.5811842a.chunk.js.map",
+    "index.html": "/processo-seletivo-anima2/index.html",
+    "precache-manifest.5d5628286683bdbfe3d1dd8d7a97a8b4.js": "/processo-seletivo-anima2/precache-manifest.5d5628286683bdbfe3d1dd8d7a97a8b4.js",
+    "service-worker.js": "/processo-seletivo-anima2/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/processo-seletivo-anima2/static/css/2.de424728.chunk.css.map",
+    "static/css/main.b7f70691.chunk.css.map": "/processo-seletivo-anima2/static/css/main.b7f70691.chunk.css.map",
+    "static/js/2.5811842a.chunk.js.LICENSE.txt": "/processo-seletivo-anima2/static/js/2.5811842a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebc526fc.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.5811842a.chunk.js",
+    "static/css/main.b7f70691.chunk.css",
+    "static/js/main.eb01c1bb.chunk.js"
+  ]
+}
