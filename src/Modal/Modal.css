@@ -1,0 +1,60 @@
+.divModal{
+    width: 600px;
+    height: 400px;
+    background: #7386D5;
+    position: fixed;
+    border-radius: 15px;
+    margin-left: 700px;
+    margin-top: 200px;
+    box-shadow:10px 10px 24px -5px rgba(0,0,0,0.75);
+  }
+  
+  .divModal .modalHeader h1{
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 5;
+  }
+  
+  .divModal .modalHeader{
+    border-radius: 15px;
+  }
+  
+  .modalContent{
+    margin-left: 25px;
+    width: 550px;
+    height:250px;
+    background-color: #FFFFFF;
+    border:none;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  
+  .modalContent input{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+  }
+  
+  
+  .modalActions .btnModal{
+    width: 120px;
+    height: 50px;
+    background-color: #7386D5;
+    color: #FFFFFF;
+    border:none;
+    transition: 1s;
+    margin-left: 110px;
+    margin-top: 7px;
+    border-radius: 10px;
+  }
+  
+  .modalActions .btnModal:hover{
+  
+    background-color: #FFFFFF;
+    color: #7386D5;
+  
+  }

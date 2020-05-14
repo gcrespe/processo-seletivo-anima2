@@ -1,0 +1,54 @@
+.employeeWrapper{
+    background-color: #91a2eb;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.45);
+
+}
+
+.employeeName{
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+
+.employeeInfo{
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+
+.additionalInfo{
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+.maxValue{
+
+    text-align: right;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+
+
+
+.progress-bar:only-child{
+
+    text-align: right;
+    
+}
+
+.progressWidth{
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.createEventButton{
+    background-color: #91a2eb;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
