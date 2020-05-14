@@ -1,16 +1,83 @@
-import React from 'react'
-import { Dropdown, Menu } from 'semantic-ui-react'
+import React, {Component} from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FontAwesome from 'react-fontawesome'
 
-const options = [
-  { key: 1, text: 'Choice 1', value: 1 },
-  { key: 2, text: 'Choice 2', value: 2 },
-  { key: 3, text: 'Choice 3', value: 3 },
-]
+class DropDown extends Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      listOpen: false,
+      headerTitle: this.props.title,
+      location: [
+        {
+            id: 0,
+            title: 'New York',
+            selected: false,
+            key: 'location'
+        },
+        {
+          id: 1,
+          title: 'Dublin',
+          selected: false,
+          key: 'location'
+        },
+        {
+          id: 2,
+          title: 'California',
+          selected: false,
+          key: 'location'
+        },
+        {
+          id: 3,
+          title: 'Istanbul',
+          selected: false,
+          key: 'location'
+        },
+        {
+          id: 4,
+          title: 'Izmir',
+          selected: false,
+          key: 'location'
+        },
+        {
+          id: 5,
+          title: 'Oslo',
+          selected: false,
+          key: 'location'
+        }
+      ]
+    }
+  }
+  handleClickOutside(){
+    this.setState({
+      listOpen: false
+    })
+  }
+  toggleList(){
+    this.setState(prevState => ({
+      listOpen: !prevState.listOpen
+    }))
+  }
+  render(){
+    const data = Array.from(this.props.list);
+    const{listOpen, headerTitle} = this.state
+    return(
+      <div className="dd-wrapper">
+        <div className="dd-header" onClick={() => this.toggleList()}>
+          <div className="dd-header-title">{headerTitle}</div>
+          {listOpen
+            ? <FontAwesome name="angle-up" size="2x"/>
+            : <FontAwesome name="angle-down" size="2x"/>
+          }
+        </div>
+        {listOpen && <ul  className="list-unstyled-components">
+         {data.map( item => (
+           <li  className="dd-list-item" key={item.id} >{item.title}</li>
+          ))}
+        </ul>}
+      </div>
+    )
+  }
+}
 
-const DropdownButton = () => (
-  <Menu compact>
-    <Dropdown text='Dropdown' style={{background: '#7386D5', border: '#7386D5', outline: 'none', color: '#FFFFFF', width: 248}} options={options} simple item />
-  </Menu>
-)
-
-export default DropdownButton
+export default DropDown

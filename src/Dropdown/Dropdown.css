@@ -1,0 +1,59 @@
+.dd-wrapper {
+    text-align:center;
+    display: flex;
+    align-items: stretch;
+    z-index: 4;
+    text-align: left;
+    padding: 25px;
+}
+
+
+.dd-header{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    position:fixed;
+    box-shadow:6px 0px 18px -9px rgba(0,0,0,0.75)
+}
+
+.dd-header:hover{
+    color: #7386D5;
+    background: #fff;
+}
+
+.dd-header ul li a {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+.dd-header ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+
+.dd-header ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+.dd-header {
+    list-style: none;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.dd-header-title {
+    width:46px;
+    padding: 10px;
+    background: #6d7fcc;
+}
+
+.dd-header ul.components {
+    list-style-type: none;
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+

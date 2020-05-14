@@ -79,9 +79,21 @@ a, a:hover, a:focus {
     border-bottom: 1px solid #47748b;
 }
 
+ul{
+    list-style-type: none;
+}
+
 #sidebar ul p {
     color: #fff;
     padding: 10px;
+}
+
+a:only-child{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+    
+
 }
 
 #sidebar ul li a {
