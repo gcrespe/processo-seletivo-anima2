@@ -159,7 +159,7 @@ class App extends Component{
                               <h6>Id:{item.id}  Salário: <NumberFormat thousandSeparator={true} prefix={'R$'} value={item.employee_salary} style={{border:'none', background:'#91a2eb', color:'#FFFFFF', width:'9%'}}/>    Idade: {item.employee_age}</h6>                            
                               
                               <div class="row">
-                                  <div className='col offset-4'>
+                                  <div className='col offset-9'>
                               <button className='createEventButton' onClick={() => this.startCreateEventHandler(item.id-1)}><i className='icon+'> + </i>Adicionar um valor em reais</button>
                               </div>
                     </div>
